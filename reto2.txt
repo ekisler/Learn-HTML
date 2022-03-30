@@ -1,0 +1,49 @@
+1) <h1 id="title">Hello World</h1>
+
+2)  <p id="description">This is a short explanation</p>
+
+3) <form id="survey-form">
+  
+  <br>
+4)10)    <label for="name" id="name-label">My Name</label>
+    <input id="name" placeholder="Enter your name">  
+  </br>
+  
+  <br>
+5 y 6)10)    <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" placeholder="email">
+  </br>
+  
+  <br>
+7)10) <label for="number" id="number-label">Number</label>
+8) <input id="number" type="number" placeholder="Num" min="1" max="10">
+  </br>
+  
+  <br>
+9) <label for="range">Range</label>
+    <input type="range" name="movie-rating" min="0" max="10">
+  </br>
+
+10)<select name="rental-option">
+        <option value="small">Small</option>
+        <option value="family">Family Sedan</option>
+        <option value="lux">Luxury</option>
+      </select>
+</form>
+
+13) <input id="yes" type="radio" name="atribute" value="yes">
+          <label for="yes">Yes</label>
+
+<input id="no" type="radio" name="atribute" value="no">
+          <label for="no">No</label>
+
+14) <input id="lettuce" name="topping" type="checkbox" value="lettuce">
+	<label for="lettuce">Lettuce</label>
+
+      <input id="lettuce" name="topping" type="checkbox" value="lettuce">
+	<label for="lettuce">Lettuce</label>
+
+
+15)    <textarea  name="comment">Enter text here...</textarea>
+    
+16)    <input type="submit">
